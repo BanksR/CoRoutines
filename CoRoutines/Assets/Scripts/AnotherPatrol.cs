@@ -14,13 +14,13 @@ public class AnotherPatrol : MonoBehaviour {
 
     private int currentWaypoint = 0;
 
-	private void Start()
+	void Start()
 	{
         StartCoroutine(MoveToWaypoint(waypoints[0]));
 	}
 
 
-	private void MoveToNextWaypoint()
+	void MoveToNextWaypoint()
     {
         currentWaypoint = (currentWaypoint + 1) % waypoints.Length;
         targetPos = waypoints[currentWaypoint];

@@ -187,14 +187,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 834097909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec8361d5d3bb94ad1bf869b57c081187, type: 3}
+  m_Script: {fileID: 11500000, guid: 891565acf7d8949e58bd80f45baac628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
   - {fileID: 490716875}
   - {fileID: 715708078}
   - {fileID: 316487215}
-  moveTime: 3
+  nextWaypoint: -1
+  moveSpeed: 1
 --- !u!1 &1252028075
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,11 +325,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4401712333576388, guid: 83417a2ce9d0541ae86a3d2aa1d3a7eb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.32
+      value: -0.09
       objectReference: {fileID: 0}
     - target: {fileID: 4401712333576388, guid: 83417a2ce9d0541ae86a3d2aa1d3a7eb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.51
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 4401712333576388, guid: 83417a2ce9d0541ae86a3d2aa1d3a7eb, type: 2}
       propertyPath: m_LocalPosition.z
