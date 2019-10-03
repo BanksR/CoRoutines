@@ -19,7 +19,7 @@ public class TheMostSimpleCoRoutineEver : MonoBehaviour
     {
 
         //This is the body of the Co routine - do stuff here...
-
+		yield return new WaitForSeconds(3);
         Debug.Log("Co Routine sucessfully called!");
 
         //Once we have completed all the tasks in the Co Routine, remember you always have to yield back
